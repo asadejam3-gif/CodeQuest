@@ -21,7 +21,7 @@ from sqlalchemy import select, and_
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from database import init_db, get_session_maker, User, UserProgress, Question, Transaction
-from question_generator import generate_question, get_difficulty_for_rating
+from gemini_question_generator import generate_question, get_difficulty_for_rating
 
 # Load environment variables
 load_dotenv()
