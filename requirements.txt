@@ -4,3 +4,4 @@ SQLAlchemy
 aiosqlite
 asyncpg
 anthropic
+google-generativeai
