@@ -14,8 +14,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import (
     InlineKeyboardButton, InlineKeyboardMarkup, LabeledPrice,
-    PreCheckoutQuery,
-    DefaultBotProperties
+    PreCheckoutQuery
 )
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from sqlalchemy import select, and_
@@ -42,10 +41,7 @@ class QuizState(StatesGroup):
 
 # Initialize bot and dispatcher
 
-bot = Bot(
-    token=TOKEN,
-    default=DefaultBotProperties(parse_mode="HTML")
-)
+bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
 # Global session maker
