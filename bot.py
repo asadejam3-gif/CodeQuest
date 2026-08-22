@@ -15,7 +15,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import (
     InlineKeyboardButton, InlineKeyboardMarkup, LabeledPrice,
     PreCheckoutQuery,
-    DefaultBotProperties  ← ADD THIS
+    DefaultBotProperties
 )
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from sqlalchemy import select, and_
