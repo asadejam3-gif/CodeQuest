@@ -1,6 +1,6 @@
-aiogram==3.3.0
-python-dotenv==1.0.0
-SQLAlchemy==2.0.23
-aiosqlite==3.4.0
-asyncpg==0.29.0
-anthropic==0.21.0
+aiogram
+python-dotenv
+SQLAlchemy
+aiosqlite
+asyncpg
+anthropic
