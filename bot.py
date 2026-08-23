@@ -548,10 +548,7 @@ async def process_successful_payment(message: types.Message):
 
 # ==================== ERROR HANDLING ====================
 
-@dp.error()
-async def error_handler(update, exception):
-    """Handle errors"""
-    logger.error(f"Update: {update}\nException: {exception}")
+
 
 
 # ==================== MAIN ====================
